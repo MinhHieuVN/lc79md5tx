@@ -1,0 +1,3 @@
+requests
+python-telegram-bot==21.4
+flask
