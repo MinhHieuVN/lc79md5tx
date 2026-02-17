@@ -5,7 +5,7 @@ from flask import Flask, jsonify
 from telegram import Bot, Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
-BOT_TOKEN = os.getenv("8575818729:AAHdWOdvWDCDdyT-M7vQkEwAgA1VqNkbLbQ")
+BOT_TOKEN = ("8575818729:AAHdWOdvWDCDdyT-M7vQkEwAgA1VqNkbLbQ")
 API_URL = "https://lc79-ejw6.onrender.com/lc79/md5"
 
 DATA_USERS = "users.json"   # {chat_id: {role, expire}}
